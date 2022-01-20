@@ -22,3 +22,4 @@ runs:
       cache: 'npm'
 #  - run: npm install
   - run: node -v
+    shell: bash
