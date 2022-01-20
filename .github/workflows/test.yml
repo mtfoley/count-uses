@@ -3,4 +3,4 @@ on:
   workflow_dispatch:
 jobs:
   test:
-    uses: ../../action.yml
+    uses: mtfoley/count-uses@main
