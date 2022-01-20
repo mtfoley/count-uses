@@ -1,0 +1,24 @@
+name: count-uses
+description: This is an action that searches GH for “uses: owner/action” and updates a readme with a result
+author: Matthew Foley
+branding:
+  icon: 'bar-chart-2'
+  color: 'purple'
+
+inputs:
+  token:
+    description: 'Github Auth Token'
+    required: true
+    default: ${{ github.token }}
+  action:
+    description: 'Action taking the form owner/action. This will be used in the search terms'
+runs:
+  using: "composite"
+  steps:
+  - uses: actions/checkout@v2
+  - uses: actions/setup-node@v2
+    with:
+      node-version: '14'
+      cache: 'npm'
+#  - run: npm install
+  - run: node -v
