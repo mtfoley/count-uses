@@ -20,6 +20,6 @@ runs:
     with:
       node-version: '14'
       cache: 'npm'
-#  - run: npm install
+  - run: npm install
   - run: node -v
     shell: bash
