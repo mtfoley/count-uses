@@ -1,5 +1,5 @@
-name: count-uses
-description: This is an action that searches GH for “uses: owner/action” and updates a readme with a result
+name: 'count-uses'
+description: 'This is an action that searches GH for “uses: owner/action” and updates a readme with a result'
 author: Matthew Foley
 branding:
   icon: 'bar-chart-2'
