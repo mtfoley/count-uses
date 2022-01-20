@@ -21,5 +21,6 @@ runs:
       node-version: '14'
       cache: 'npm'
   - run: npm install
+    shell: bash
   - run: node -v
     shell: bash
