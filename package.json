@@ -1,0 +1,24 @@
+{
+  "name": "actions",
+  "version": "1.0.0",
+  "description": "The open-sauced actions",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtfoley/count-uses.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtfoley/count-uses/issues"
+  },
+  "homepage": "https://github.com/mtfoley/count-uses#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "octokit": "^1.1.0"
+  }
+}
